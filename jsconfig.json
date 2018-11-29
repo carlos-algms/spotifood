@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "checkJs": true
+    "checkJs": true,
+    "jsx": "react"
   },
   "exclude": ["node_modules", "public"],
   "typeAcquisition": {
-    "include": ["react", "react-dom"]
+    "include": ["react", "react-dom", "jest"]
   }
 }

@@ -1,9 +1,6 @@
 {
-  "cSpell.words": [
-    "airbnb",
-    "codecov",
-    "copyfiles"
-  ],
+  "cSpell.words": ["airbnb", "codecov", "copyfiles", "unmount"],
+  "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
   "editor.trimAutoWhitespace": true,
