@@ -1,0 +1,45 @@
+*           text=auto
+
+*.css       linguist-vendored
+
+
+# enforce linux line endings
+*.md        text eol=lf
+*.txt       text eol=lf
+*.xml       text eol=lf
+*.js        text eol=lf
+*.json      text eol=lf
+*.css       text eol=lf
+*.html      text eol=lf
+*.yml       text eol=lf
+*.bat       text eol=crlf
+
+# dotfiles configurations
+.*          text eol=lf
+
+# Graphics
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.tif       binary
+*.tiff      binary
+*.ico       binary
+# SVG treated as an asset (binary) by default. You can change it to text, if necessary
+*.svg       binary
+*.eps       binary
+
+## ARCHIVES
+*.7z        binary
+*.gz        binary
+*.jar       binary
+*.rar       binary
+*.tar       binary
+*.zip       binary
+
+## FONTS
+*.ttf       binary
+*.eot       binary
+*.otf       binary
+*.woff      binary
+*.woff2     binary

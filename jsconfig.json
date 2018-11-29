@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "checkJs": true
+  },
+  "exclude": ["node_modules", "public"],
+  "typeAcquisition": {
+    "include": ["react", "react-dom"]
+  }
+}
