@@ -15,5 +15,6 @@
   "html.suggest.ionic": false,
   "javascript.suggest.completeFunctionCalls": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.validate.enable": false,
   "prettier.requireConfig": true
 }
