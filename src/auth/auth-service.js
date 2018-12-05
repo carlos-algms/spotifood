@@ -1,14 +1,18 @@
 import spotAuth from './spot-auth';
 
 class AuthService {
-  accessToken: string;
-
-  tokenType: string;
-
   /**
    * @private
    */
   authProvider = spotAuth;
+
+  get accessToken() {
+    return this.authProvider.accessToken;
+  }
+
+  get tokenType() {
+    return this.authProvider.tokenType;
+  }
 
   /**
    * Verifies if the session is authorized.
@@ -16,13 +20,7 @@ class AuthService {
    * If they are not, try to fetch them from the URL, otherwise from the localStorage.
    */
   isAuthorized() {
-    let isAuthorized = this.accessToken && this.tokenType;
-
-    if (!isAuthorized) {
-      isAuthorized =
-    }
-
-    return isAuthorized;
+    return this.authProvider.isAuthorized();
   }
 
   /**
